@@ -36,8 +36,8 @@ const publishCallback = (failed, error) => {
 
 // Wait for connection to become established
 connection.on('connect', function () {
-  console.debug('Connected to MQTT server');
-  console.debug(`Will publish to topic "${TOPIC}"`);
+  console.info('Connected to MQTT server');
+  console.info(`Will publish to topic "${TOPIC}"`);
 
   // Connect to the block data streaming socket
   ipc.connectTo(
@@ -49,7 +49,7 @@ connection.on('connect', function () {
           console.error('Error trying to connect to nano-stream-x', err);
         }
       });
-      ipc.of.nanoStream.on('connect', () => console.debug('Connected to nano-stream-x'));
+      ipc.of.nanoStream.on('connect', () => console.info('Connected to nano-stream-x'));
       ipc.of.nanoStream.on(
         'payload', // topic
         function(data){
