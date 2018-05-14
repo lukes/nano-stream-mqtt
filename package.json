@@ -1,6 +1,6 @@
 {
   "name": "nano-stream-mqtt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A tiny and performant process that streams block data from a Nano currency node over the MQTT messaging protocol",
   "main": "app.js",
   "homepage": "https://github.com/lukes/nano-stream-mqtt",
