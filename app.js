@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var mqtt = require('mqtt')
+var mqtt = require('mqtt');
 // const util = require('util');
 const ipc = require('node-ipc');
 
