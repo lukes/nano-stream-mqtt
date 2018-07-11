@@ -1,6 +1,8 @@
 
 # nano-stream-mqtt
 
+[![npm version](https://badge.fury.io/js/nano-stream-mqtt.svg)](https://badge.fury.io/js/nano-stream-mqtt)
+
 A tiny and performant client that streams block data from a [Nano currency](https://nano.org/) node over the MQTT messaging protocol.
 
 It builds on the socket stream of block data set up by the [nano-stream-x](https://github.com/lukes/nano-stream-x) library.
